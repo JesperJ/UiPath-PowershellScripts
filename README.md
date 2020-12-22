@@ -3,4 +3,4 @@ Start it on your own computer to monitor a remote UiPath robot using RDP Shadowi
 
 # Update-UiPathREADME
 Use it to document your UiPath Library.
-Run the script in a UiPath Library folder to generate a new README.md
+Run the script in a UiPath Library folder to generate a new README.md [example](https://github.com/JesperJ/UiPath-Open-E/blob/main/README.md)
