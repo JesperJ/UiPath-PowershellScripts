@@ -27,7 +27,7 @@ function Update-UiPathREADME {
 
     .NOTES
     NAME: Update-UiPathREADME
-    AUTHOR: Jesper Jeansson, Kalmar Kommun
+    AUTHOR: Jesper Jeansson
     LASTEDIT: den 16 oktober 2020 15:26:51
     KEYWORDS: UiPath, Markdown
     #>

@@ -17,8 +17,3 @@ This is a powershell module, go to your PSModulePath and run
 ```
 git clone https://github.com/JesperJ/UiPath-PowershellScripts.git
 ```
-
-Find PSModulePath
-```
-$env:PSModulePath -split ";"
-```

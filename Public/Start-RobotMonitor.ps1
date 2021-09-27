@@ -30,7 +30,7 @@
     while ($RunLoop -eq $true) {
         if ($MstscPID) {
             $MstscProcess = Get-Process -PID $MstscPID -ErrorAction SilentlyContinue
-            if ($false -eq $MstscProcess) {
+            if ($null -eq $MstscProcess) {
                 $NotConnected = $true
                 "$(Get-Date -UFormat "[%Y-%m-%d %R]") - Disconnected RDP-session on robot $Robot"
                 Remove-Variable MstscPID
@@ -51,7 +51,7 @@
             $NotConnected = $true
         }
         
-        start-sleep 2
+        start-sleep 5
         $i++;
     }
 }
